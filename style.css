@@ -23,7 +23,6 @@
 body {
   background-color: white;
   margin: 0;
-  font-family: "old-standard", TimesNewRoman, "Times New Roman", Times, serif;
   color: black; }
 
 h1, h2 {
@@ -36,12 +35,6 @@ h1, h2 {
 a:link, a:visited {
   text-decoration: none;
   color: inherit; }
-
-a:hover {
-  text-decoration: underline; }
-
-i {
-  font-style: normal; }
 
 .card {
   margin: 8px 8px 8px 0;
@@ -113,8 +106,6 @@ i {
     font-size: 35px;
     line-height: 51px;
     letter-spacing: 2px; }
-    #when a:hover {
-      text-decoration: none; }
   #when .email {
     border-bottom: 1px solid #717171; }
 

@@ -1,5 +1,4 @@
 @import "bourbon/bourbon";
-$retina-filename: "@2x";
 
 @include font-face(arno, 'fonts/arno_pro_italic-webfont', normal, italic);
 @font-face {
@@ -17,9 +16,7 @@ $retina-filename: "@2x";
 
 body {
   background-color: white;
-  // background: url(images/rob3.jpg) center -55px;
   margin: 0;
-  font-family: "old-standard", TimesNewRoman, "Times New Roman", Times, serif;
   color: black;
 }
 
@@ -29,7 +26,6 @@ h1, h2 {
   font-weight: normal;
   line-height: 1;
   text-rendering: optimizeLegibility;
-  // -webkit-font-smoothing: antialiased;
 }
 
 a:link, a:visited {
@@ -37,20 +33,12 @@ a:link, a:visited {
   color: inherit;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-i { font-style: normal; }
-
 .card {
-  // width: 300px;
   margin: 8px 8px 8px 0;
   padding: 16px;
   position: absolute;
   top: 50%;
   left: 50%;
-  // z-index:2;
 }
 .card:hover {
   z-index: 50 !important;
@@ -73,7 +61,6 @@ i { font-style: normal; }
 }
 
 #sit-down {
-  // display: none;
   width: auto;
   white-space: nowrap;
   font-family: gotham;
@@ -82,7 +69,6 @@ i { font-style: normal; }
   letter-spacing: 1px;
   padding: 60px 45px 50px 45px;
   color: white;
-  // border: 1px solid red;
   background: black;
   @include transform(translate(-45%, -106%));
   z-index: 2;
@@ -90,11 +76,9 @@ i { font-style: normal; }
 
 #when {
   background: white;
-  // display: none;
   text-align: center;
   font-family: din;
   color: #717171;
-  // border: 36px solid #B7B7B7;
   border: 36px solid #B7B7B7;
   width: 465px;
   padding: 140px 0 112px 0;
@@ -112,14 +96,9 @@ i { font-style: normal; }
     font-size: 35px;
     line-height: 51px;
     letter-spacing: 2px;
-    &:hover { text-decoration: none; }
   }
   .email {
     border-bottom: 1px solid #717171;
-    // padding-top: 100px;
-  }
-  .telephone {
-    // padding-bottom: 100px;
   }
 }
 
