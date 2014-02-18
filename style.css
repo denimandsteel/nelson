@@ -118,7 +118,7 @@ i {
   #when .email {
     border-bottom: 1px solid #717171; }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   body {
     background-color: #000; }
 
