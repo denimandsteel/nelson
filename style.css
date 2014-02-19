@@ -57,11 +57,11 @@ a:link, a:visited {
   padding: 34px 17px 26px 19px;
   margin: 0;
   width: auto;
-  -webkit-transform: translate(-260%, -203%);
-  -moz-transform: translate(-260%, -203%);
-  -ms-transform: translate(-260%, -203%);
-  -o-transform: translate(-260%, -203%);
-  transform: translate(-260%, -203%);
+  -webkit-transform: translate(-290%, -203%);
+  -moz-transform: translate(-290%, -203%);
+  -ms-transform: translate(-290%, -203%);
+  -o-transform: translate(-290%, -203%);
+  transform: translate(-290%, -203%);
   z-index: 3; }
 
 #sit-down {
